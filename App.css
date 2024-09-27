@@ -1,0 +1,86 @@
+.app-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.appointment-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.parse-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.parse-button:hover {
+  background-color: #218838;
+}
+
+.appointment-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.appointment-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.appointment-details {
+  font-weight: bold;
+}
+
+.subtask-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 10px 0;
+}
+
+.subtask-item {
+  margin-left: 10px;
+}
+
+.subtask-input {
+  display: flex;
+  align-items: center;
+}
+
+.subtask-input input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.subtask-input button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subtask-input button:hover {
+  background-color: #0056b3;
+}
